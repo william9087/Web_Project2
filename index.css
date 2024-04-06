@@ -1,0 +1,255 @@
+body {
+  background-color: rgb(21, 14, 14);
+}
+
+#index_bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 65vw;
+  z-index: -3;
+}
+
+#game_bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70vh;
+  width: 100vw;
+  z-index: -3;
+}
+
+#gallow {
+  z-index: -2;
+  position: absolute;
+  top: 62%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Eater", serif;
+  font-style: normal;
+  z-index: 2;
+  color: #ffffff;
+}
+
+#name {
+  text-align: center;
+  margin-top: 9%;
+  font-size: 55px;
+  color: #ffffff;
+  font-family: "Eater";
+}
+
+#name1 {
+  text-align: center;
+  margin-top: 4%;
+  font-size: 55px;
+  color: #ffffff;
+}
+
+.button a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  /* margin-left: 680px;
+  margin-right: 680px; */
+  transition: color 0.4s ease;
+  font-size: 21px;
+}
+
+#easy_mode {
+  margin-top: 11%;
+  width: 1%;
+  margin-left: 47%;
+}
+
+#medium_mode {
+  width: 1%;
+  margin-left: 47%;
+}
+
+#hard_mode {
+  width: 1%;
+  margin-left: 47%;
+}
+
+#back {
+  transition: color 0.4s ease;
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 19%;
+  margin-top: 8%;
+  transition: color 0.4s ease;
+  z-index: 5;
+}
+
+#game_back {
+  position: absolute;
+  text-decoration: none;
+  font-size: 22px;
+  transition: color 0.4s ease;
+  color: #ffffff;
+  margin-top: 38%;
+  margin-left: 3%;
+  z-index: 5;
+  background: none;
+  border: none;
+  outline: none;
+  /* transition: font-family 0.5s ease; */
+}
+
+#game_back:hover {
+  color: red;
+  font-family: "Nosifer", sans-serif;
+}
+
+#back:hover {
+  color: red;
+}
+
+.button a:hover {
+  color: #ff0000;
+}
+
+#play_button {
+  text-align: center;
+  margin-top: 11%;
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+#play_button:hover {
+  color: #ff0000;
+}
+
+#instruction_button {
+  text-align: center;
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+#instruction_button:hover {
+  color: #ff0000;
+}
+
+a {
+  display: block;
+}
+
+#text {
+  position: absolute;
+  color: #ffffff;
+  z-index: 10;
+  font-family: "Nosifer", sans-serif;
+  font-style: normal;
+  right: 18%;
+  top: 84%;
+}
+
+#instruction {
+  margin: auto;
+  text-align: center;
+  font-family: "Eater";
+  width: 26vw;
+}
+
+@font-face {
+  font-family: "Butcherman";
+  src: url("fonts/Butcherman-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nosifer";
+  src: url("fonts/Nosifer-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Eater";
+  src: url("fonts/Eater-Regular.ttf");
+}
+
+.controls-container {
+  float: right;
+  width: 300px; /* Adjust the width as needed */
+  text-align: right;
+  margin-top: 20px;
+}
+
+.controls {
+  display: inline-block;
+}
+
+#gallow {
+  width: 40%;
+}
+
+#won {
+  position: absolute;
+  color: darkgreen;
+  font-size: 30px;
+  margin-top: 37%;
+  margin-left: 77%;
+  font-family: "Nosifer", sans-serif;
+}
+
+#lost {
+  position: absolute;
+  color: darkred;
+  font-size: 30px;
+  margin-top: 37%;
+  margin-left: 77%;
+  z-index: 3;
+  font-family: "Nosifer", sans-serif;
+}
+
+#letters1 {
+  padding: 20px;
+  color: #fcf8e3;
+  z-index: 5;
+  width: 50%;
+  margin-left: 42%;
+  margin-top: 5%;
+}
+
+#letters2 {
+  padding: 20px;
+  color: #fcf8e3;
+  z-index: 5;
+  width: 50%;
+  margin-left: 37%;
+  margin-top: 5%;
+}
+
+#letters3 {
+  padding: 20px;
+  color: #fcf8e3;
+  z-index: 5;
+  width: 50%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+#keyboard {
+  float: right;
+  display: inline;
+  vertical-align: top;
+  margin-right: 5%;
+  margin-top: 28%;
+  width: 15%;
+}
+
+#restart {
+  float: right;
+}
